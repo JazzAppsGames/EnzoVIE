@@ -277,7 +277,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_5E818F0A: {r: 1, g: 0.54766244, b: 0, a: 1}
+    - Color_5E818F0A: {r: 0.6037736, g: 0.33148357, b: 0, a: 1}
     - Vector2_BC68AE8A: {r: 50, g: 10, b: 0, a: 0}
     - Vector2_FAFA9FCC: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 0.9063317, g: 0.42482397, b: 0, a: 1}
