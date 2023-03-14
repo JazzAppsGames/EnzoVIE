@@ -1,5 +1,7 @@
 # EnzoVIE
 
+[![LICENSE](https://img.shields.io/badge/license-SNCL-blue)](https://github.com/JazzAppsGames/EnzoVIE/blob/main/LICENSE)
+
 WIP
 
 Model has defects. Lighting is very unrealistic (but wicked cool).
