@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace JazzApps.Game
 {
-    public class ElementGMB : MonoBehaviour
+    public class ElementGB : MonoBehaviour
     {
     
     }

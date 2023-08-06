@@ -1,7 +1,10 @@
 {
     "name": "JazzApps.Camera",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:c718e8752b63c4c46b367065fd9e5296",
+        "GUID:72aa2640e2dafe0428af19d4678c6b43"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
