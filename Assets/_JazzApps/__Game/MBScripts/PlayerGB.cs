@@ -30,6 +30,12 @@ namespace JazzApps.Game
         private PlayerViewController _playerViewController;
         private PlayerSelectController _playerSelectController;
 
+        protected override void ResetND()
+        {
+            // TODO:
+            throw new NotImplementedException();
+        }
+
         public override void Spawned()
         {
             // TODO: Refactor this

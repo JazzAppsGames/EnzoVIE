@@ -22,12 +22,12 @@ namespace JazzApps.Game
 
         [field: SerializeField] public LiveGame liveGamePrefab { get; private set; }
         
-        //[field: Header("Prefabs")]
-        //[field: SerializeField] public MapGB mapGBPrefab { get; private set; }
-        //[field: SerializeField] public PlayerGB playerGBPrefab { get; private set; }
-        //[Header("GameSOs")]
-        //public MapGSO mapGSO;
-        //public PlayerGSO playerGSO;
+        [field: Header("Prefabs")]
+        [field: SerializeField] public MapGB mapGBPrefab { get; private set; }
+        [field: SerializeField] public PlayerGB playerGBPrefab { get; private set; }
+        [Header("GameSOs")]
+        public MapGSO mapGSO;
+        public PlayerGSO playerGSO;
 
         #region EVENTS
         #region EXTERNALLY FIRED

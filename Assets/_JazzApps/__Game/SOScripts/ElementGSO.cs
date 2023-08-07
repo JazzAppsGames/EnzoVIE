@@ -10,6 +10,6 @@ namespace JazzApps.Game
     public class ElementGSO : GameScriptableObject
     {
         [SerializeField] private string ID;
-        protected override string _guid => ID;
+        //protected override string _guid => ID;
     }
 }

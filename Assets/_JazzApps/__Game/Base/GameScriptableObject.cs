@@ -8,6 +8,6 @@ namespace JazzApps.Game
 {
     public abstract class GameScriptableObject : ScriptableObject
     {
-        protected abstract string _guid { get; }
+        //protected abstract string _guid { get; }
     }
 }
