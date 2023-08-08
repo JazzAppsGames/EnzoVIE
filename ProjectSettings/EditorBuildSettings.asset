@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_JazzApps/Scenes/HDScene.unity
     guid: 3e418d8a212a2ff42819e3a1873cf075
+  - enabled: 1
+    path: Assets/_JazzApps/Scenes/LDScene.unity
+    guid: 9f27817ced82cc1438a21d00e8e0436e
   m_configObjects: {}

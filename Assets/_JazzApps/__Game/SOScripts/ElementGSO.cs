@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 namespace JazzApps.Game
 {
-    [CreateAssetMenu(fileName = "ElementName", menuName = "JazzApps/GSOs/Element", order = 1)]
+    [CreateAssetMenu(fileName = "ElementGSO", menuName = "JazzApps/GSOs/Element", order = 1)]
     public class ElementGSO : GameScriptableObject
     {
         [SerializeField] private string ID;

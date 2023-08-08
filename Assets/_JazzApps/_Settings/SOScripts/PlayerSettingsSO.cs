@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 namespace JazzApps.Settings
 {
-    [CreateAssetMenu(fileName = "PlayerSettings", menuName = "SO/Settings/Player")]
+    [CreateAssetMenu(fileName = "PlayerSettings", menuName = "JazzApps/SO/Settings/Player")]
     public class PlayerSettingsSO : SettingsScriptableObject
     {
         public PlayerMovementSettings MovementSettings;

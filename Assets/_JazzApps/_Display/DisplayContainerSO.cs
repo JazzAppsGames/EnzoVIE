@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace JazzApps.Display
 {
-    [CreateAssetMenu(fileName = "DisplayContainer", menuName = "ContainerSO/DisplayContainer")]
+    [CreateAssetMenu(fileName = "DisplayContainer", menuName = "JazzApps/ContainerSO/DisplayContainer")]
     public class DisplayContainerSO : Container
     {
         public DisplayManager Manager => (DisplayManager)BaseManager;

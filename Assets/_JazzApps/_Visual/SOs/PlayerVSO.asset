@@ -9,6 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b024126227acba4eac1c3c34f94d397, type: 3}
-  m_Name: TestElement
+  m_Script: {fileID: 11500000, guid: 786fe6fbea13a4341bbc4663944c2671, type: 3}
+  m_Name: PlayerVSO
   m_EditorClassIdentifier: 
+  name: PlayerName
+  sprite: {fileID: 21300000, guid: 9aebd705574f9e642aef1e5f59b3e4d8, type: 3}

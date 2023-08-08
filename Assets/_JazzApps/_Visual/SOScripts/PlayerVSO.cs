@@ -9,7 +9,7 @@ using L = JazzApps.Utils.Logger;
 
 namespace JazzApps.Visual
 {
-    [CreateAssetMenu(fileName = "PlayerVisual", menuName = "SO/Visual/Player")]
+    [CreateAssetMenu(fileName = "PlayerVSO", menuName = "JazzApps/SO/Visual/Player")]
     public class PlayerVSO : VisualScriptableObject
     {
         [SerializeField] private new string name;

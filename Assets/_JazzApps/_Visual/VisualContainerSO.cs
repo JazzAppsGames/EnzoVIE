@@ -11,7 +11,7 @@ using L = JazzApps.Utils.Logger;
 
 namespace JazzApps.Visual
 {
-    [CreateAssetMenu(fileName = "VisualContainer", menuName = "ContainerSO/VisualContainer")]
+    [CreateAssetMenu(fileName = "VisualContainer", menuName = "JazzApps/ContainerSO/VisualContainer")]
     public class VisualContainerSO : Container
     {
         public VisualManager Manager => (VisualManager)BaseManager;

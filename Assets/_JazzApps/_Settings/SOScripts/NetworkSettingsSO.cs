@@ -10,7 +10,7 @@ using GUIL = UnityEngine.GUILayout;
 
 namespace JazzApps.Settings
 {
-    [CreateAssetMenu(fileName = "NetworkSettings", menuName = "SO/Settings/Network")]
+    [CreateAssetMenu(fileName = "NetworkSettings", menuName = "JazzApps/SO/Settings/Network")]
     public class NetworkSettingsSO : SettingsScriptableObject
     {
         [field: SerializeField] public SceneReference MultiplayerScene { get; private set; }

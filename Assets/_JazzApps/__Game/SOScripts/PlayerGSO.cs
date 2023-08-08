@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 
 namespace JazzApps.Game
 {
-    [CreateAssetMenu(fileName = "Player", menuName = "SO/Game/Player")]
+    [CreateAssetMenu(fileName = "PlayerGSO", menuName = "JazzApps/SO/Game/Player")]
     public class PlayerGSO : GameScriptableObject
     {
         public PlayerConfig Config;

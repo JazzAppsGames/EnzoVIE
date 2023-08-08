@@ -10,7 +10,7 @@ namespace JazzApps.Game
     /// <summary>
     /// The overall configuration and pointer for things
     /// </summary>
-    [CreateAssetMenu(fileName = "Map", menuName = "SO/Game/Map")]
+    [CreateAssetMenu(fileName = "MapGSO", menuName = "JazzApps/SO/Game/Map")]
     public class MapGSO : GameScriptableObject
     {
         public MapConfig Config;
@@ -24,8 +24,6 @@ namespace JazzApps.Game
         public Vector2Int Index { get; set; }
 
         public string name;
-        public List<Point> waypoints;
-        public List<Point> nodepoints;// LATER: nodeRotations
         public Point playerspawnpoint;
         [Range(0,3)] public float randomSpawnRange;
         public Point GetPlayerSpawn()

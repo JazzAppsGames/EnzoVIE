@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 namespace JazzApps.Settings
 {
-    [CreateAssetMenu(fileName = "SettingsContainer", menuName = "ContainerSO/SettingsContainer", order = 0)]
+    [CreateAssetMenu(fileName = "SettingsContainer", menuName = "JazzApps/ContainerSO/SettingsContainer", order = 0)]
     public class SettingsContainerSO : Container
     {
         public SettingsManager Manager => (SettingsManager)BaseManager;

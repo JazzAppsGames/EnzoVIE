@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace JazzApps.Network
 {
-    [CreateAssetMenu(fileName = "NetworkContainer", menuName = "ContainerSO/NetworkContainer")]
+    [CreateAssetMenu(fileName = "NetworkContainer", menuName = "JazzApps/ContainerSO/NetworkContainer")]
     public class NetworkContainerSO : Container
     {
         public NetworkManager Manager => (NetworkManager)BaseManager;

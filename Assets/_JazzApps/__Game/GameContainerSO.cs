@@ -9,13 +9,10 @@ using UnityEngine;
 
 namespace JazzApps.Game
 {
-    [CreateAssetMenu(fileName = "GameContainer", menuName = "ContainerSO/GameContainer")]
+    [CreateAssetMenu(fileName = "GameContainer", menuName = "JazzApps/ContainerSO/GameContainer")]
     public class GameContainerSO : Container
     {
         public GameManager Manager => (GameManager)BaseManager;
-
-        private void Awake() { }
-        private void OnEnable() { }
         
         [HideInInspector] public LiveGame LiveGame;
         [HideInInspector] public int localPlayerIdentity;
